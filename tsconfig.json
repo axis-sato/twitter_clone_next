@@ -13,11 +13,11 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "baseUrl": "./",
+    "baseUrl": "./src",
     "paths": {
-      "@pages/*": ["./pages/*"],
-      "@components/*": ["./components/*"],
-      "@core/*": ["./core/*"]
+      "@pages/*": ["pages/*"],
+      "@components/*": ["components/*"],
+      "@core/*": ["core/*"]
     }
   },
   "exclude": ["node_modules"],

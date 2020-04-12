@@ -7,9 +7,9 @@ module.exports = {
   webpack: (config) => {
     config.resolve.alias = {
       ...config.resolve.alias,
-      "@pages": path.resolve(__dirname, "./pages"),
-      "@components": path.resolve(__dirname, "./components"),
-      "@core": path.resolve(__dirname, "./core"),
+      "@pages": path.resolve(__dirname, "./src/pages"),
+      "@components": path.resolve(__dirname, "./src/components"),
+      "@core": path.resolve(__dirname, "./src/core"),
     };
     return config;
   },
